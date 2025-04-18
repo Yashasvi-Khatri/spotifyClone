@@ -1,8 +1,12 @@
 import React from 'react'
-import './treding.css'
+import './trending.css'
+import TrendingCard from '../trendingCard/trendingCard'
 const trending = () => {
   return (
-    <div>trending</div>
+    <div className='trendingSectionMainContainer'>
+        Trending
+        < TrendingCard/>
+    </div>
   )
 }
 
